@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  tsc:
+    container_name: tsc
+    build: .
+    working_dir: /workspase
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/workspace
+    # 開発用コンテナのため、コンテナ起動を継続させたいため
+    tty: true
