@@ -7,5 +7,8 @@ RUN apt update \
   && locale-gen ja_JP.UTF-8 \
   && echo "export LANG=ja_JP.UTF-8" >> ~/.bashrc
 
+# git-secretsのインストール
+RUN apt install git-secrets
+
 WORKDIR /workspace
 CMD [ "/bin/bash" ]
