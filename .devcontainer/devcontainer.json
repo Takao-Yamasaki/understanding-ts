@@ -10,7 +10,8 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "christian-kohler.path-intellisense",
-        "vscodevim.vim"
+        "vscodevim.vim",
+        "ritwickdey.liveserver"
       ]
     }  
   }
