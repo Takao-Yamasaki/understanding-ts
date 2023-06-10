@@ -3,7 +3,7 @@ services:
   tsc:
     container_name: tsc
     build: .
-    working_dir: /workspase
+    working_dir: /workspace
     ports:
       - 3000:3000
     volumes:

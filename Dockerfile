@@ -1,4 +1,4 @@
 # node.jsの推奨版を使用
 FROM node:18.16.0
-WORKDIR /workspase
+WORKDIR /workspace
 CMD [ "/bin/bash" ]
