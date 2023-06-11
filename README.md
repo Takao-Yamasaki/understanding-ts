@@ -10,11 +10,11 @@
 ```
 
 ### Dev Containersで起動後実施(初回のみ)
-- 　次ののコマンドを実行して、TypeScriptをインストール
+- 次ののコマンドを実行して、TypeScriptをインストール
 ```
 npm install -g typescript
 ```
-- 　次のコマンドを実行して、`package.json`を作成
+- 次のコマンドを実行して、`package.json`を作成
 ```
 npm init
 ```
@@ -36,4 +36,9 @@ tsc app.ts
 - デフォルトでは`http://localhost:3000`で起動
 ```
 npm start
+```
+
+## hadolintの使い方
+```
+hadolint Dockerfile
 ```
